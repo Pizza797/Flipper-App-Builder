@@ -79,10 +79,12 @@ sudo apt update && sudo apt upgrade -y
 ```
 to update and upgrade all installed packages.
 This will also install the development dependencies 
-* git                       - Version control system
-* python3                   - Python programming language
-* python3-pip               - Python package installer
-* pipx                      - Tool for installing Python applications in isolated environments
+| Package | Description |
+|---------|-------------|
+| git | Version control system |
+| python3 | Python programming language |
+| python3-pip | Python package installer |
+| pipx | Tool for installing Python applications in isolated environments |
 
 ## **Note*** During the installation, you might get prompted to enter the password that you set for your WSL distro to install the dependencies.
 
@@ -97,10 +99,12 @@ ufbt update
 
 ## Update/Upgrade WSL distribution
 This option will perform maintenance on your existing WSL distro
-* sudo apt update           - Refreshes the list of available packages
-* sudo apt upgrade -y       - Upgrade all installed packages
-* sudo apt autoremove -y    - Removes unused/orphaned packages
-* sudo apt autoclean        - Cleans up old package files
+| Command | Description |
+|---------|-------------|
+| sudo apt update | Refreshes the list of available packages |
+| sudo apt upgrade -y | Upgrade all installed packages |
+| sudo apt autoremove -y | Removes unused/orphaned packages |
+| sudo apt autoclean | Cleans up old package files |
 
 <br>
 
