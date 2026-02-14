@@ -59,7 +59,7 @@ Win-PS2EXE
 
 # How to use the Flipper App Builder 
 After the app is launched, there will be 3 options:
-1. Initial setup - This install WSL. You can choose a Linux distro that you want to use (Kali-Linux was used to test and run the app)
+1. Initial setup - This will install WSL 2. You can choose a Linux distro that you want to use (Kali-Linux was used to test and run the app)
 2. Update and Upgrade your WSL distro - Useful if you want to quickly update & upgrade your Linux distro.
 3. Compile Flipper App - This will allow you to open the location of the Flipper app that you want to compile.
 
